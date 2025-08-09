@@ -14,7 +14,27 @@ public class GestorEmpresas {
         empresas.add(empresa);
     }
 
-    public List<Empresa> getEmpresas() {
+    public Empresa buscarPorNombre(String nombre) {
+        for (Empresa e : empresas) {
+            if (e.getNombre().equalsIgnoreCase(nombre)) {
+                return e;
+            }
+        }
+        return null;
+    }
+
+    public void eliminarEmpresa(String nombre) {
+        empresas.removeIf(e -> e.getNombre().equalsIgnoreCase(nombre));
+    }
+
+    public void editarEmpresa(String nombre, String nuevoNombre, String nuevoSector, String nuevoCorreo) {
+        Empresa e = buscarPorNombre(nombre);
+        if (e != null) {
+            e.editar(nuevoNombre, nuevoSector, nuevoCorreo);
+        }
+    }
+
+    public List<Empresa> listarEmpresas() {
         return empresas;
     }
 }
