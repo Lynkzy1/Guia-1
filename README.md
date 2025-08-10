@@ -19,8 +19,8 @@ Este proyecto es una aplicación de consola desarrollada en Java para gestionar 
 ## Instrucciones para ejecutar
 
 1. **Pre-requisitos:**  
-   - Tener instalado Java.
-   - Utilizar un IDE como Eclipse, IntelliJ o NetBeans, o compilar desde consola.
+- Tener instalado Java.
+- Utilizar un IDE como Eclipse, IntelliJ o NetBeans, o compilar desde consola.
 
 2. **Clonar el repositorio:**
    ```bash
@@ -29,10 +29,10 @@ Este proyecto es una aplicación de consola desarrollada en Java para gestionar 
    ```
 
 3. **Abrir el proyecto en tu IDE:**  
-   - Importa la carpeta `src/` como proyecto Java.
+- Importa la carpeta `src/` como proyecto Java.
 
 4. **Compilar y ejecutar:**  
-   - Ubica el archivo `FeriaEmpresarial.java` en el paquete `feria`.
+- Ubica el archivo `FeriaEmpresarial.java` en el paquete `feria`.
      
 
 ## Funcionalidades
