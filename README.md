@@ -6,7 +6,6 @@ README.md
 Aplicación en Java que simula la gestión de una feria empresarial, permitiendo registrar empresas, stands y visitantes, así como gestionar la interacción entre ellos.
 
 ## Requisitos
-- Java 8 o superior
 - IDE recomendado: Eclipse, IntelliJ o NetBeans
 
 ## Ejecución
@@ -27,6 +26,5 @@ Aplicación en Java que simula la gestión de una feria empresarial, permitiendo
 - Generación de reportes.
 
 ## Diagrama de Clases UML
-(Agrega aquí la imagen/PDF del diagrama UML)
+<img width="652" height="866" alt="Captura de pantalla 2025-08-09 162140" src="https://github.com/user-attachments/assets/360521aa-f0d3-492a-8846-3eb916877cb9" />
 
-Primer commit: README.md
